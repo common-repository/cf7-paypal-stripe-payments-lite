@@ -1,0 +1,138 @@
+#cf7-payments {
+    padding: 12px 0;
+    margin-bottom: 24px;
+}
+
+#cf7-payments > p > label {
+    display: table;
+}
+
+#cf7-payments #cf7-payments-paypal {}
+#cf7-payments #cf7-payments-paypal a {
+    background: #003087;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 15px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border: none;
+    box-shadow: none;
+}
+#cf7-payments #cf7-payments-paypal a:hover,
+#cf7-payments #cf7-payments-paypal a:active,
+#cf7-payments #cf7-payments-paypal a:focus {
+    text-decoration: none;
+    opacity: .7;
+    -webkit-opacity: .7;
+}
+
+#cf7-payments #cf7-payments-paypal a svg, span {}
+#cf7-payments #cf7-payments-paypal a svg {
+    margin-right: 10px;
+    fill: currentColor;
+}
+#cf7-payments #cf7-payments-paypal a span {}
+
+#cf7-payments #cf7-payments-stripe a {
+    background: #00afe1;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 15px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border: none;
+    box-shadow: none;
+}
+#cf7-payments #cf7-payments-stripe a:hover,
+#cf7-payments #cf7-payments-stripe a:active,
+#cf7-payments #cf7-payments-stripe a:focus {
+    text-decoration: none;
+    opacity: .7;
+    -webkit-opacity: .7;
+}
+
+#cf7-payments #cf7-payments-stripe a svg, span {}
+#cf7-payments #cf7-payments-stripe a svg {
+    margin-right: 10px;
+    fill: currentColor;
+}
+#cf7-payments #cf7-payments-stripe a span {}
+
+#cf7-payments #cf7-payments-stripe #card-errors {
+    font-size: small;
+    color: #eb1c26;
+}
+
+#cf7-payments #cf7-payments-stripe #stripe-submit-cont {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#cf7-payments #cf7-payments-stripe #stripe-submit-cont img {
+    margin-left: 12px;
+    width: 20px;
+}
+
+#cf7-payments .cf7-payment-loading {
+    display: flex;
+    align-items: center;
+}
+#cf7-payments .cf7-payment-loading img {
+    height: 20px;
+    margin-right: 10px;
+}
+
+#cf7-payments.loading .cf7-payment-methods-header,
+#cf7-payments.loading .cf7-payment-methods,
+#cf7-payments.loading #cf7-payments-paypal,
+#cf7-payments.loading #cf7-payments-stripe,
+#cf7-payments.loading .cf7-payment-success {
+    display: none;
+}
+
+#cf7-payments:not(.loading) .cf7-payment-loading {
+    display: none
+}
+
+#cf7-payments.success .cf7-payment-methods-header,
+#cf7-payments.success .cf7-payment-methods,
+#cf7-payments.success #cf7-payments-paypal,
+#cf7-payments.success #cf7-payments-stripe {
+    display: none;
+}
+
+#cf7-payments:not(.success) .cf7-payment-success {
+    display: none
+}
+
+#cf7-payments .cf7-payment-success,
+#cf7-payments .cf7-payment-cookies-notice {
+    display: flex;
+    align-items: center;
+}
+#cf7-payments .cf7-payment-success svg,
+#cf7-payments .cf7-payment-cookies-notice svg {
+    height: 20px;
+    margin-right: 10px;
+    fill: currentColor;
+}
+
+#cf7-payments #cf7-payments-paypal #paypal-submit-cont {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#cf7-payments #cf7-payments-paypal #paypal-submit-cont img {
+    margin-left: 12px;
+    width: 20px;
+}

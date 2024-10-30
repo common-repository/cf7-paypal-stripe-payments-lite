@@ -1,0 +1,14 @@
+@media screen and (min-width: 783px) {
+    .wrap.cf7-payments form {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    .wrap.cf7-payments form > div:first-child {
+        flex: 1;
+        margin-right: 1rem;
+    }
+    .wrap.cf7-payments form > div:last-child {
+        max-width: 400px
+    }
+}

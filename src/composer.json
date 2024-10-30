@@ -1,0 +1,11 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Cf7Payments\\": "app"
+        }
+    },
+    "require": {
+        "stripe/stripe-php": "^7.72",
+        "paypal/paypal-checkout-sdk": "^1.0"
+    }
+}

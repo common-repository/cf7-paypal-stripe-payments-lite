@@ -1,0 +1,199 @@
+# Copyright (C) 2021 Payments Lite for Contact Form 7 with PayPal & Stripe
+# This file is distributed under the same license as the Payments Lite for Contact Form 7 with PayPal & Stripe package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Payments Lite for Contact Form 7 with PayPal & Stripe "
+"0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cf7-payments-"
+"lite\n"
+"POT-Creation-Date: 2021-05-26 03:22:38+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: src/app/Admin/Admin.php:43
+msgid "CF7 Payments &mdash; Settings"
+msgstr ""
+
+#: src/app/Admin/Admin.php:44
+msgid "CF7 Payments"
+msgstr ""
+
+#: src/app/Admin/Admin.php:82
+msgid "Settings"
+msgstr ""
+
+#: src/app/Admin/Admin.php:83
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: src/app/Admin/Screen/Settings.php:22
+msgid "Invalid request, authorization check failed. Please try again."
+msgstr ""
+
+#: src/app/Admin/Screen/Settings.php:36
+msgid "Settings updated successfully."
+msgstr ""
+
+#: src/app/App.php:294
+msgid ""
+"Payment is required. For subsequent submissions, please refresh the page and "
+"try submitting another payment."
+msgstr ""
+
+#: src/app/App.php:395
+msgid "Please close this window to continue."
+msgstr ""
+
+#: src/templates/payment-module.php:4
+msgid "Payment Required: %s %s"
+msgstr ""
+
+#: src/templates/payment-module.php:5
+msgid "Payment Method:"
+msgstr ""
+
+#: src/templates/payment-module.php:10
+msgid "Credit Card"
+msgstr ""
+
+#: src/templates/payment-module.php:15
+msgid "PayPal"
+msgstr ""
+
+#: src/templates/payment-module.php:23
+msgid "Pay with PayPal"
+msgstr ""
+
+#: src/templates/payment-module.php:30
+msgid "Credit or debit card:"
+msgstr ""
+
+#: src/templates/payment-module.php:36
+msgid "Submit Payment"
+msgstr ""
+
+#: src/templates/payment-module.php:44
+msgid "Your payment is being processed..."
+msgstr ""
+
+#: src/templates/payment-module.php:49
+msgid "Your payment was received!"
+msgstr ""
+
+#: src/templates/payment-module.php:54
+msgid ""
+"You must <a href=\"https://wordpress.org/support/article/cookies/#enable-"
+"cookies-in-your-browser\">enable cookies</a> in your browser to submit a "
+"payment."
+msgstr ""
+
+#: src/templates/settings.php:4
+msgid "CF7 Payments &lsaquo; Settings"
+msgstr ""
+
+#: src/templates/settings.php:9
+msgid "Contact Form:"
+msgstr ""
+
+#: src/templates/settings.php:13
+msgid "&mdash; Select Form &mdash;"
+msgstr ""
+
+#: src/templates/settings.php:19
+msgid "Payments will be collected for the selected contact form."
+msgstr ""
+
+#: src/templates/settings.php:23
+msgid ""
+"Need more forms? <a target=\"_new\" href=\"https://www.wputil.com/cf7-"
+"payments\" style=\"color: inherit;\">Upgrade</a> to monetize more forms and "
+"unlock more features!"
+msgstr ""
+
+#: src/templates/settings.php:30
+msgid "Payment Amount:"
+msgstr ""
+
+#: src/templates/settings.php:40
+msgid "Currency Code:"
+msgstr ""
+
+#: src/templates/settings.php:43
+msgid "USD"
+msgstr ""
+
+#: src/templates/settings.php:44
+msgid "3-letter currency ISO code, defaults to USD"
+msgstr ""
+
+#: src/templates/settings.php:51
+msgid "Stripe API Key:"
+msgstr ""
+
+#: src/templates/settings.php:61
+msgid "Stripe API Secret:"
+msgstr ""
+
+#: src/templates/settings.php:71
+msgid "PayPal client ID:"
+msgstr ""
+
+#: src/templates/settings.php:81
+msgid "PayPal client secret:"
+msgstr ""
+
+#: src/templates/settings.php:90
+msgid "PayPal environment:"
+msgstr ""
+
+#: src/templates/settings.php:95
+msgid "Enable PayPal sandbox mode."
+msgstr ""
+
+#: src/templates/settings.php:105
+msgid "More features are awaiting!"
+msgstr ""
+
+#: src/templates/settings.php:106
+msgid "Unlimited payment forms"
+msgstr ""
+
+#: src/templates/settings.php:107
+msgid "Priority support"
+msgstr ""
+
+#: src/templates/settings.php:108
+msgid "Payments reports in your dashboard"
+msgstr ""
+
+#: src/templates/settings.php:109
+msgid ""
+"Upgrade to <a target=\"_new\" href=\"https://www.wputil.com/cf7-payments\" "
+"style=\"color: inherit;\">Contact Form 7 PayPal & Stripe Payments</a> today!"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Payments Lite for Contact Form 7 with PayPal & Stripe"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.wputil.com/cf7-payments"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Require payments on your Contact Form 7 forms with PayPal or Stripe payment "
+"gateways."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "wputil"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.wputil.com/about"
+msgstr ""
